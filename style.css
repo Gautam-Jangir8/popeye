@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    length:3px;
+    position: relative;
+}
+
+#main {
+width: 100%;
+height: 22vh; 
+position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.05);
+    z-index: 1;
+}
+
+.logo img {
+    height:35px;
+}
+
+.menu {
+list-style: none;
+display:flex;
+}
+
+.menu li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(219, 125, 10);
+}
+
+.hey {
+color:rgb(73, 117, 22) ;
+font-weight: 550;
+font-size: 1.1em;
+border-bottom: 2px solid rgb(73, 117, 22);
+}
+
+.image {
+height: 500px;
+width: 500px;
+}
+ 
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     left: 5%;
+     right: 50%;
+     background-color: white;
+}
+
+.main-text {
+    width: 400px;
+}
+
+.main-text h1 {
+    font-size: 3em;
+    color: rgb(20, 59, 61);
+    margin: 0px 0px 10px 0px;
+}
+
+.main-text p { 
+    font-size: 1.5em;
+    color:rgb(43, 133, 138);
+}
+
+.resume-btn {
+    width: 190px;
+    height: 44px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+    background-color: darkcyan;
+    border-radius: 20px;
+    box-shadow: 33px coral;
+    z-index: 3;
+}
+
+.resume-btn:hover {
+    background-color: rgb(23, 161, 161);
+    transition: all ease .2s;
+}
+
+.menu li a:hover {
+    background-color: darkcyan;
+    color: white;
+}
